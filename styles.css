@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Fraunces:wght@700&family=Hanken+Grotesk:wght@500&family=Inter:wght@400;700;800&family=Josefin+Sans:wght@300;400;600&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Libre+Franklin:wght@300;600;700&family=Manrope:wght@500;700&family=Montserrat:ital,wght@0,500;1,200&family=Open+Sans&family=Outfit:wght@300;400;600&family=Overpass:wght@400;700&family=Playpen+Sans:wght@700&family=Plus+Jakarta+Sans:wght@500;800&family=Poppins:ital,wght@0,400;0,700;1,800&family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@400;700&family=Rubik:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    min-width:  100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0.611);
+}
+
+.card {
+    background-color: white;
+    padding: 1rem 2.5rem;
+    height: 210px;
+    width: 400px;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+#joke { 
+    height: 100px;
+    padding: 1rem;
+    border: 1px dashed blue;
+    padding: 0.5rem 0;
+   margin: 0.5rem 0;
+}
+
+#jokeBtn {
+    width: 9rem;
+    height: 2.5rem;
+    background-color: rgba(202, 202, 27, 0.752);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 700;
+}
+
+#jokeBtn:hover {
+    background-color: rgba(178, 27, 27, 0.736);
+    cursor: pointer;
+}
