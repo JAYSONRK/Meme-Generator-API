@@ -11,7 +11,7 @@
 
 ## overview
 
-This project is built with html, css and javascript.
+This project is built with html, css, javascript and API.
 
 ## features
 
@@ -37,6 +37,7 @@ Your users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- API
 
 ## Author
 
